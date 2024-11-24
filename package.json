@@ -1,5 +1,5 @@
 {
-  "name": "emailvalidator",
+  "name": "email-presence-validator",
   "version": "1.0.0",
   "description": "email validator using domain ",
   "main": "index.js",
