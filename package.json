@@ -1,0 +1,22 @@
+{
+  "name": "emailvalidator",
+  "version": "1.0.0",
+  "description": "email validator using domain ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mukul Singh",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mukul-singh-16/emailvalidator.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "bugs": {
+    "url": "https://github.com/mukul-singh-16/emailvalidator/issues"
+  },
+  "homepage": "https://github.com/mukul-singh-16/emailvalidator#readme"
+}
