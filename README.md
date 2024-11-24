@@ -8,6 +8,7 @@ You can install this package using npm:
 
 ```bash
 npm install email-presence-validator
+```
 
 
 
@@ -15,7 +16,7 @@ npm install email-presence-validator
 Usage
 Here’s an example of how to use email-presence-validator:
 
-
+```bash
 const { emailValidation } = require("email-presence-validator");
 
 emailValidation("mukul.singh_cs21@gla.ac.in")
@@ -25,13 +26,13 @@ emailValidation("mukul.singh_cs21@gla.ac.in")
   .catch(error => {
     console.error("Error:", error);
   });
+```
 
 
 Sample Output
 A successful response might look like this:
 
-json
-Copy code
+```bash
 {
   "invalid_input": false,
   "input": "mukul.singh_cs21@gla.ac.in",
@@ -39,6 +40,8 @@ Copy code
   "status": 550,
   "reason": "The email account that you tried to reach does not exist."
 }
+```
+
 Error Handling
 If there is an error during the validation process, it will be logged or returned in the catch block.
 
@@ -47,9 +50,6 @@ Email Presence Check: Verify if an email exists without sending an OTP.
 Lightweight: Simple and easy to integrate into your project.
 Asynchronous Support: Uses promises to handle asynchronous operations.
 Detailed Responses: Provides detailed reasons for the email's validity or invalidity.
-License
-This project is licensed under the MIT License. Feel free to use it in your personal or commercial projects.
 
-Contributing
 
 Contributions are welcome! If you have suggestions or improvements, feel free to open a pull request or an issue on the GitHub repository.
