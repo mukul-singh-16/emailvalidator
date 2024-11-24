@@ -19,7 +19,7 @@ Here’s an example of how to use email-presence-validator:
 ```bash
 const { emailValidation } = require("email-presence-validator");
 
-emailValidation("mukul.singh_cs21@gla.ac.in")
+emailValidation("youremail@gamil.com")
   .then(result => {
     console.log(result);
   })
@@ -35,8 +35,8 @@ A successful response might look like this:
 ```bash
 {
   "invalid_input": false,
-  "input": "mukul.singh_cs21@gla.ac.in",
-  "domain": "gla.ac.in",
+  "input": "youremail@gamil.com",
+  "domain": "gmail.com",
   "status": 550,
   "reason": "The email account that you tried to reach does not exist."
 }
